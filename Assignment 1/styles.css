@@ -1,0 +1,42 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #ffffff;
+    justify-items: center;
+}
+#parent-container{
+    width: 45%;
+    background-color: #e0e0e0;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px 10px;
+    margin: 5%;
+    height: 400px;
+    
+}
+#child-container{
+    /* justify-items: center; */
+    background-color: #000000;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.page-head{
+    background: #e4168e;
+    padding: 1px 20px;
+    width: 31%;
+    border-radius: 10px;
+    margin-left: 12%;
+    position: absolute;
+    top: 80px;
+}
+.page-body{
+    background-color: #ffffff;
+    padding: 50px 10px 10px 15px;
+    width: 42%;
+    border-radius: 15px;
+    margin-left: 7.5%;
+    margin-top: 17%;
+    /* position: absolute; */
+}
