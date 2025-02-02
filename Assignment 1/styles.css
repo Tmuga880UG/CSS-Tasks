@@ -22,6 +22,7 @@ html, body{
     position: relative;
     overflow: hidden;
 }
+
 .page-head{
     background: #e4168e;
     padding: 1px 8px;
@@ -31,6 +32,7 @@ html, body{
     position: absolute;
     top: 65px;
 }
+
 .page-body{
     background-color: #ffffff;
     padding: 50px 10px 10px 15px;
