@@ -15,23 +15,23 @@ html, body{
         justify-items: center;
         font-family: lato;
         border: 2px solid rgb(136, 133, 133);
-        width: 900px;
-        margin-top: 1.5%;
+        width: 800px;
+        margin-top: 3%;
     }
     
     .header{
-        width: 900px;
-        height: 250px;
+        width: 800px;
+        height: 220px;
         border-bottom: 8px;
         border-color: #999999;
-        margin-left: 34%;
+        margin-left: 26.5%;
     }
     
     
     .header h3{
         width: 180px;
         height: 38px;
-        top: 100px;
+        /* top: 100px; */
     }
     
     .header p{
@@ -58,17 +58,17 @@ html, body{
     
     .main{
         background-color: #666666;
-        width: 900px;
-        height: 300px;
-        top: 255px;
+        width: 800px;
+        height: 250px;
+        top: 250px;
         justify-items: center;
         justify-content: center;
-        padding-top: 55px;
+        padding-top: 35px;
     }
     
     .main .card{
         width: 600px;
-        height: 250px;
+        height: 200px;
         left: 232px;
         border-bottom: 8px;
         background-color: white;
