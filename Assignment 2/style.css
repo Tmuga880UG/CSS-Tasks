@@ -15,12 +15,12 @@ html, body{
         justify-items: center;
         font-family: lato;
         border: 2px solid rgb(136, 133, 133);
-        width: 59.1%;
+        width: 900px;
         margin-top: 1.5%;
     }
     
     .header{
-        width: 100%;
+        width: 900px;
         height: 250px;
         border-bottom: 8px;
         border-color: #999999;
