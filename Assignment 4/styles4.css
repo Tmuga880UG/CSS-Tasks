@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+@media screen and (min-width:768px) {
+    
 html, body{
     width: 100%;
     margin: 0;
@@ -37,6 +39,9 @@ body .container{
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
+}
+.container .left-side .mobile-view{
+    display: none;
 }
 
 .container .left-side p{
@@ -136,8 +141,143 @@ body .container{
     line-height: 25px;
 }
 
+
+
 p a{
     text-decoration-color: rgb(109, 241, 197);
     color: rgb(102, 236, 192);
     font-weight: 600;
+}
+
+.container .mobi-view{
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width: 767px){
+
+   html body{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    justify-items: center;
+    font-family: Lato, sans-serif;
+   }
+
+   .container{
+    width: 375px;
+    height: 1294px;
+    background-color: rgba(247, 253, 252, 1);
+   }
+
+   .left-side{
+    margin-top: 30px;
+    margin-left: 20px; 
+    padding-top: 20px;
+   }
+    
+
+   .left-side img{
+    width: 38.67px;
+    height: 40px;
+   }
+   .left-side h2{
+    width: 327px;
+    height: 30px;    
+   }
+   .left-side .wider-view{
+    display: none;
+   }
+   .left-side .mobile-view{
+    width: 327px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(115, 115, 115, 1);
+   }
+
+   .form{
+    width: 300px;
+    height: 890px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 6px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+   }
+
+   .form .label{
+    display: grid;
+    padding-top: 0px;
+    }
+
+    .form .names .label{
+        height: 72px;
+        width: 295px;
+        margin-top: 30px;
+    }
+    .form .SexandDoB .label{
+        height: 72px;
+        width: 295px;
+        margin-top: 30px
+    }
+    .form .measurements .label{
+        height: 72px;
+        width: 295px;
+        margin-top: 30px
+    }
+
+    .form .activity{
+        display: grid;
+        height: 72px;
+        width: 295px;
+        margin-top: 30px
+    }
+
+    .form .password{
+        display: grid;
+        height: 72px;
+        width: 295px;
+        margin-top: 30px
+    }
+
+    .form button{
+        width: 295px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        border: 0px;
+        background-color: rgb(56, 235, 211);
+        border-radius: 5px;
+    }
+
+    .form .wide-view{
+        display: none;
+    }
+
+    .container .mobi-view{
+        width: 316px;
+        height: 50px;
+        font-size: 14px;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    
+    
+    .container .mobi-view a{
+        text-decoration-color: rgb(109, 241, 197);
+        color: rgb(73, 233, 185);
+        font-weight: 600;
+    }
+
+
 }
